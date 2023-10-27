@@ -4,6 +4,13 @@
    * Dark Colors
    * -------------------------------------------
    */
+  body {
+    --ion-color-primary: #FDFEAE;
+    --ion-color-secondary: #57382B;
+    --ion-color-tertiary: #765142;
+    --ion-color-dark: #000000;
+    --ion-color-light: #ffffff;
+  }
   /*
    * iOS Dark Theme
    * -------------------------------------------

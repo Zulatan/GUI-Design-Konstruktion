@@ -3,17 +3,21 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'frontpage',
-    loadChildren: () => import('./frontpage/frontpage.module').then( m => m.FrontpagePageModule)
-  },
-  {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'global-nav',
     pathMatch: 'full'
   },
   {
-    path: 'frontpage',
-    loadChildren: () => import('./frontpage/frontpage.module').then( m => m.FrontpagePageModule)
+    path: 'tilbud',
+    loadChildren: () => import('./tilbud/tilbud.module').then( m => m.TilbudPageModule)
+  },
+  {
+    path: 'global-nav',
+    loadChildren: () => import('./global-nav/global-nav.module').then( m => m.GlobalNavPageModule)
+  },
+  {
+    path: 'indkoeb',
+    loadChildren: () => import('./indkoeb/indkoeb.module').then( m => m.IndkoebPageModule)
   },
 ];
 

@@ -12,12 +12,12 @@ const routes: Routes = [
     loadChildren: () => import('./tilbud/tilbud.module').then( m => m.TilbudPageModule)
   },
   {
-    path: 'global-nav',
-    loadChildren: () => import('./global-nav/global-nav.module').then( m => m.GlobalNavPageModule)
-  },
-  {
     path: 'indkoeb',
     loadChildren: () => import('./indkoeb/indkoeb.module').then( m => m.IndkoebPageModule)
+  },
+  {
+    path: 'global-nav',
+    loadChildren: () => import('./global-nav/global-nav.module').then( m => m.GlobalNavPageModule)
   },
 ];
 

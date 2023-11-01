@@ -8,8 +8,6 @@ import { IndkoebPageRoutingModule } from './indkoeb-routing.module';
 
 import { IndkoebPage } from './indkoeb.page';
 
-import { GlobalNavPage } from '../global-nav/global-nav.page';
-
 
 @NgModule({
   imports: [
@@ -17,6 +15,7 @@ import { GlobalNavPage } from '../global-nav/global-nav.page';
     FormsModule,
     IonicModule,
     IndkoebPageRoutingModule,
+    
 
   ],
   declarations: [IndkoebPage, ]

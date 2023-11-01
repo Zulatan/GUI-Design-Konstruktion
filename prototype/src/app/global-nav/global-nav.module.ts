@@ -8,6 +8,8 @@ import { GlobalNavPageRoutingModule } from './global-nav-routing.module';
 
 import { GlobalNavPage } from './global-nav.page';
 
+
+
 @NgModule({
   imports: [
     CommonModule,

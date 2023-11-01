@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { GlobalNavPage } from '../global-nav/global-nav.page';
 
 @Component({
   selector: 'app-indkoeb',
@@ -11,6 +10,7 @@ export class IndkoebPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

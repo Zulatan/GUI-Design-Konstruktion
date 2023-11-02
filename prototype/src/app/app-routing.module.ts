@@ -16,10 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./indkoeb/indkoeb.module').then( m => m.IndkoebPageModule)
   },
   {
-    path: 'global-nav',
-    loadChildren: () => import('./global-nav/global-nav.module').then( m => m.GlobalNavPageModule)
-  },
-  {
     path: 'lister',
     loadChildren: () => import('./lister/lister.module').then( m => m.ListerPageModule)
   },

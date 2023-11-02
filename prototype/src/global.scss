@@ -24,3 +24,38 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+/* yderligere css tilføjelser */
+
+.SegBaggrund{
+    --background: #57382B
+}
+
+.SegBaggrund ion-label{
+    color: white;
+    font-size: 12px;
+}
+
+.GridBaggrund{
+    background-color: #765142
+}
+
+.GridBaggrund ion-col{
+    color: white;
+}
+
+.col-midt{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ion-header{
+    box-shadow: none;
+}
+
+.GridBaggrund ion-menu-button{
+    --background-hover: none
+    --border-radius: 0px;
+    --color: #FDFEAE;
+}

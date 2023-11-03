@@ -16,7 +16,7 @@
         <ion-row>
 
         <ion-col size="12 ">
-          <ion-button class="button-style">Netto</ion-button>
+          <ion-button id="open-modal1" class="button-style">Netto</ion-button>
         </ion-col>
 
         </ion-row>
@@ -26,7 +26,7 @@
         <ion-row>
 
         <ion-col size="12">
-          <ion-button class="button-style">Lidl</ion-button>
+          <ion-button id="open-modal2" class="button-style">Lidl</ion-button>
         </ion-col>
 
         </ion-row>
@@ -36,7 +36,7 @@
         <ion-row>
 
         <ion-col size="12">
-          <ion-button class="button-style">Føtex</ion-button>
+          <ion-button id="open-modal3" class="button-style">Føtex</ion-button>
         </ion-col>
 
         </ion-row>
@@ -47,4 +47,52 @@
   </ion-row>
 </ion-grid>
 
+<!-----------Modal-1------------>
+<ion-modal [keepContentsMounted]="true" trigger="open-modal1" #modal>
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button (click)="modal.dismiss()">Cancel</ion-button>
+        </ion-buttons>
+        <ion-title>Nettos Tilbudsavis</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">  </ion-content>
+  </ng-template>
+</ion-modal>
+<!-----------Modal-1-end------------>
 
+
+<!-----------Modal-2---------------->
+<ion-modal [keepContentsMounted]="true" trigger="open-modal2" #modal2>
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button (click)="modal2.dismiss()">Cancel</ion-button>
+        </ion-buttons>
+        <ion-title>Lidl Tilbudsavis</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding"> </ion-content>
+  </ng-template>
+</ion-modal>
+<!-----------Modal-2-end------------>
+
+
+<!-----------Modal-3---------------->
+<ion-modal [keepContentsMounted]="true" trigger="open-modal3" #modal3>
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button (click)="modal3.dismiss()">Cancel</ion-button>
+        </ion-buttons>
+        <ion-title >Føtex Tilbudsavis</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding"> </ion-content>
+  </ng-template>
+</ion-modal>
+<!-----------Modal-3-end------------>

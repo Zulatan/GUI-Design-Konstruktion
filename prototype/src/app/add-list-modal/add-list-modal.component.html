@@ -1,11 +1,18 @@
-<ion-modal>
-  <ion-header>
-    <ion-title>
-      My Modal
-    </ion-title>
-  </ion-header>
-  <ion-content>
-    This is my modal content.
-  </ion-content>
-  <ion-button (click)="closeModal()">Close modal</ion-button>
-</ion-modal>
+<ion-content>
+  <div class="container">
+    <div class="content-wrapper">
+      <ion-fab-button color="tertiary" class="ion-float-left">
+        <ion-icon size="large" name="close" color="primary" (click)="closeModal()"></ion-icon>
+      </ion-fab-button>
+      <h1>Lav ny liste?</h1>
+      <ion-list color="tertiary">
+        <ion-item color="tertiary">
+          <ion-label>List name:</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-list>
+      <ion-button color="secondary" (click)="closeModal()">Cancel</ion-button>
+      <ion-button color="secondary">Lav liste</ion-button>
+    </div>
+  </div>
+</ion-content>

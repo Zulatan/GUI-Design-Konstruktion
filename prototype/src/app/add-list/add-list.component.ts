@@ -13,8 +13,7 @@ export class AddListComponent implements OnInit {
   
   async openModal() {
     const modal = await this.modalController.create({
-      component: AddListModalComponent,
-      cssClass: 'my-custom-class'
+      component: AddListModalComponent
     });
     await modal.present();
     const { data } = await modal.onWillDismiss();

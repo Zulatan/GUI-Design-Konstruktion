@@ -37,7 +37,7 @@
 }
 
 .GridBaggrund{
-    background-color: #765142
+    background-color: #765142;
 }
 
 .GridBaggrund ion-col{
@@ -50,14 +50,22 @@
     font-size: 15px;
 }
 
+.rowmargin{
+    --margin-top: 20px;
+}
+
 ion-header{
     box-shadow: none;
 }
 
-.GridBaggrund ion-menu-button{
-    --background-hover: none
-    --border-radius: 0px;
-    --color: #FDFEAE;
+ion-segment-button{
+    --border-radius: 15px 15px 0px 0px;
+    --indicator-height: 0px;
 }
+
+ion-segment-button.active {
+    background-color: #765142;
+    color: white; 
+  }
 
 

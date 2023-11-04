@@ -7,6 +7,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 <ion-grid>
   <ion-row>
 
@@ -42,6 +52,7 @@
         </ion-row>
       </ion-grid>
 
+
     </div>
 
   </ion-row>
@@ -58,7 +69,36 @@
         <ion-title>Nettos Tilbudsavis</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding">  </ion-content>
+    <ion-content class="ion-padding">  
+
+
+      
+          <!-----Dette er swiper----->
+        <swiper-container [pagination]="true" class="swiper1">
+
+          <swiper-slide>
+            <ion-img src="assets/Netto1.jpg"></ion-img>
+          </swiper-slide>
+
+          <swiper-slide>
+            <ion-img src="assets/Netto2.jpg"></ion-img>
+          </swiper-slide>
+
+          <swiper-slide>
+            <ion-img src="assets/Netto3.jpg"></ion-img>
+          </swiper-slide>
+
+          <swiper-slide>
+            <ion-img src="assets/Netto4.jpg"></ion-img>
+          </swiper-slide>
+
+        </swiper-container>
+          <!-----Dette er swiper----->
+
+
+
+      
+    </ion-content>
   </ng-template>
 </ion-modal>
 <!-----------Modal-1-end------------>
@@ -75,7 +115,29 @@
         <ion-title>Lidl Tilbudsavis</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding"> </ion-content>
+    <ion-content class="ion-padding"> 
+
+
+ <!-----Dette er swiper----->
+ <swiper-container [pagination]="true" class="swiper2">
+
+      <swiper-slide>
+        <ion-img src="assets/Lidl2.jpg"></ion-img>
+      </swiper-slide>
+
+      <swiper-slide>
+        <ion-img src="assets/Lidl3.jpg"></ion-img>
+      </swiper-slide>
+
+      <swiper-slide>
+        <ion-img src="assets/Lidl4.jpg"></ion-img>
+      </swiper-slide>
+
+    </swiper-container>
+      <!-----Dette er swiper----->
+
+
+    </ion-content>
   </ng-template>
 </ion-modal>
 <!-----------Modal-2-end------------>
@@ -92,7 +154,29 @@
         <ion-title >Føtex Tilbudsavis</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding"> </ion-content>
+    <ion-content class="ion-padding"> 
+
+      <swiper-container [pagination]="true" class="swiper3">
+
+
+        <swiper-slide>
+          <ion-img src="assets/Fotex1.jpg"></ion-img>
+        </swiper-slide>
+      
+        <swiper-slide>
+          <ion-img src="assets/Fotex2.jpg"></ion-img>
+        </swiper-slide>
+      
+        <swiper-slide>
+          <ion-img src="assets/Fotex3.jpg"></ion-img>
+        </swiper-slide>
+    
+    </swiper-container>
+      <!-----Dette er swiper----->
+
+    </ion-content>
   </ng-template>
 </ion-modal>
 <!-----------Modal-3-end------------>
+
+

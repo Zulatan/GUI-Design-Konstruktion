@@ -8,6 +8,10 @@ import { TilbudPageRoutingModule } from './tilbud-routing.module';
 
 import { TilbudPage } from './tilbud.page';
 
+//kalder swiper//
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+//kalder swiper//
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +19,9 @@ import { TilbudPage } from './tilbud.page';
     IonicModule,
     TilbudPageRoutingModule
   ],
-  declarations: [TilbudPage]
+  declarations: [TilbudPage],
+
+schemas: [CUSTOM_ELEMENTS_SCHEMA],
+
 })
 export class TilbudPageModule {}

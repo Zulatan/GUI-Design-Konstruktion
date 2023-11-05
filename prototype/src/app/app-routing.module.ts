@@ -15,10 +15,13 @@ const routes: Routes = [
     path: 'indkoeb',
     loadChildren: () => import('./indkoeb/indkoeb.module').then( m => m.IndkoebPageModule)
   },
+
   {
     path: 'lister',
-    loadChildren: () => import('./lister/lister.module').then( m => m.ListerPageModule)
-  },
+    loadChildren: () => import('./lister/lister.module').then( m => m.ListerPageModule),
+    data: { 'app-nav-compontent': false }, // Add this line
+
+  }
 ];
 
 @NgModule({

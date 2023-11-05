@@ -7,8 +7,15 @@ const routes: Routes = [
   {
     path: '',
     component: ListerPage
-  }
+  },
+  {
+    path: 'lister',
+    loadChildren: () => import('../lister/lister.module').then( m => m.ListerPageModule),
+    data: { 'app-nav-compontent': false }, // Add this line
+
+  },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

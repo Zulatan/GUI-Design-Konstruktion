@@ -10,4 +10,24 @@
       <ion-title size="large">lister</ion-title>
     </ion-toolbar>
   </ion-header>
+
+ <!-- <ion-button id="button-lister">
+    <ion-icon slot="icon-only" name="ellipsis-horizontal-circle-sharp"></ion-icon>
+    <ion-alert trigger="present-alert" class="custom-alert" 
+    header="Are you sure?" 
+    [buttons]="alertButtons"></ion-alert>
+  </ion-button>
+  -->
+
+  <ion-button id="button-lister">
+    <ion-icon slot="icon-only" name="ellipsis-horizontal-circle-sharp"></ion-icon>
+  </ion-button>
+    <ion-alert
+    trigger="button-lister" class="custom-alert"
+    header="Vil du slette en liste?"
+    [buttons]="alertButtons">
+    </ion-alert>
+
+
+
 </ion-content>

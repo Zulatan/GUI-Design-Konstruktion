@@ -29,8 +29,18 @@
   </ion-alert>
 
   <ion-fab slot="fixed" vertical="bottom" horizontal="end">
-    <ion-fab-button>
+    <ion-fab-button id="newListAlert">
       <ion-icon name="add"></ion-icon>
+
+      <ion-alert
+        trigger="newListAlert"
+        class="newListAlertClass"
+        header="Lav ny liste?"
+        subheader="Fuck u"
+        message="Er du sikker på du gerne vil lave en ny liste?"
+        [buttons]="newListAlert">
+      </ion-alert>
+
     </ion-fab-button>
   </ion-fab>
 

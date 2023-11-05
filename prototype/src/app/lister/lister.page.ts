@@ -23,6 +23,19 @@ export class ListerPage implements OnInit {
     },
   ];
 
+  public newListAlert = [
+    {
+      text: 'Nej',
+      cssClass: 'alert-button-cancel',
+      
+    },
+    {
+      text: 'Lav Liste',
+      cssClass: 'alert-button-confirm',
+      
+    },
+  ];
+
   setResult(ev) {
     console.log(`Dismissed with role: ${ev.detail.role}`);
   }

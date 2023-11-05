@@ -76,9 +76,22 @@ ion-alert.custom-alert .alert-wrapper {
     margin-left: 53px;    
     border-radius: 33px;
 
-  }
+}
 
-  .alert-button-inner.sc-ion-alert-md{
+.alert-button-inner.sc-ion-alert-md{
     color: white;
 
-  }
+}
+
+ion-fab{
+    ion-fab-button{
+        --background: #57382B;
+        margin-bottom: 50px;
+        margin-right: 50px;
+    }
+}
+
+ion-alert.newListAlertClass .alert-wrapper {
+    background-color: #57382B;
+    border-radius: 33px;
+}

@@ -1,8 +1,7 @@
 #button-lister{
     --background: #FDFEAE;
-    --background-hover: white;
-    --background-activated: #FDFEAE;
-    --background-focused: #FDFEAE;
+    --background-hover: black;
+    --background-focused: black;
   
     --color: #57382B;
   
@@ -27,24 +26,6 @@
 }
 
 .custom-alert{
-    --backdrop-opacity: 0.2;
-}
-
-button.alert-button.alert-button-confirm {
-    background-color: #57382B ;
-    color: white;
-  }
-
-  .sc-ion-alert-md-h {
-    background-color: #57382B;
-}
-
-.alert-wrapper.sc-ion-alert-md{
-    background-color:blue;
-}
-
-.alert-button-confirm{
-    background-color: pink;
-
+    --backdrop-opacity: 0;
 }
 

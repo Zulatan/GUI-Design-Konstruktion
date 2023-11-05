@@ -68,4 +68,17 @@ ion-segment-button.active {
     color: white; 
   }
 
+/*alert til liste side*/
+ion-alert.custom-alert .alert-wrapper {
+    background-color: #57382B;
+    margin-bottom: auto;
+    margin-top: 145px;
+    margin-left: 53px;    
+    border-radius: 33px;
 
+  }
+
+  .alert-button-inner.sc-ion-alert-md{
+    color: white;
+
+  }

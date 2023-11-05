@@ -17,7 +17,7 @@ export class ListerPage implements OnInit {
       
     },
     {
-      text: 'OK',
+      text: 'Yes',
       cssClass: 'alert-button-confirm',
       
     },
